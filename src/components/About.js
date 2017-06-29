@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import Typist from 'react-typist';
 import '../styles/index.css';
 
-class Intro extends Component{
-  
+class About extends Component{
+
   render(){
     return(
       <div className="intro">
@@ -20,4 +20,4 @@ class Intro extends Component{
   }
 }
 
-export default Intro
+export default About

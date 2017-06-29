@@ -18,7 +18,7 @@ class NavBar extends Component{
   render() {
     return (
       <div>
-        <Navbar color="faded" light toggleable>
+        <Navbar className="fixed-top" color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
           <NavbarBrand href="/">Rifad | Lafir</NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
