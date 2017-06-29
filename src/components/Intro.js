@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 import '../styles/index.css';
 
 class Intro extends Component{
+  
   render(){
     return(
       <div className="intro">
@@ -15,7 +16,6 @@ class Intro extends Component{
           </Typist>
         </div>
       </div>
-
     )
   }
 }
