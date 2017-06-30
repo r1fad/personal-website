@@ -20,14 +20,17 @@ class NavBar extends Component{
       <div>
         <Navbar className="fixed-top" color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand href="/">Rifad | Lafir</NavbarBrand>
+          <NavbarBrand href="/">R | L</NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">About</NavLink>
+                <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                <NavLink href="/">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
