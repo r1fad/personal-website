@@ -1,15 +1,15 @@
 .about{
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
   background-color: #f7f7f7;
 }
 
 .heading{
   text-decoration: underline;
-  padding: 20px;
+  padding-bottom: 50px;
 }
 
 .sub-text{

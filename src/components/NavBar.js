@@ -20,7 +20,7 @@ class NavBar extends Component{
       <div>
         <Navbar className="fixed-top" color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
-          <NavbarBrand href="/">R | L</NavbarBrand>
+          <NavbarBrand href="#section-home">R | L</NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
@@ -30,7 +30,7 @@ class NavBar extends Component{
                 <NavLink href="#section-about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/">Contact</NavLink>
+                <NavLink href="#section-experience">Experience</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
