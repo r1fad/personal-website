@@ -4,8 +4,23 @@ import Typist from 'react-typist';
 import '../styles/home.css';
 
 class Home extends Component{
+  constructor(props){
+    super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state={
+      tooltipOpen: false
+    };
+  }
+
+  toggle(){
+    this.setState({
+      tooltipOpen: !this.this.state.tooltipOpen
+    });
+  }
 
   render(){
+
+
     return(
       <ScrollableAnchor id={"section-home"}>
         <section>
@@ -22,32 +37,40 @@ class Home extends Component{
                  target="_blank"
                  rel="noopener noreferrer">
                 <img className="fade logo"
-                     src={require("../assets/github.png")}
+                     src={require("../assets/logos/github.png")}
                      alt="Github"/>
               </a>
 
               <a href="https://www.linkedin.com/in/rifadlafir/"
                  target="_blank"
                  rel="noopener noreferrer">
-                <img className="fade logo"
-                     src={require("../assets/linkedin.png")}
-                     alt="LinkedIn"/>
+
+                  <img className="fade logo"
+                       src={require("../assets/logos/linkedin.png")}
+                       alt="LinkedIn"/>
+
               </a>
 
               <a href="https://twitter.com/r1fad"
                  target="_blank"
                  rel="noopener noreferrer">
                 <img className="fade logo"
-                     src={require("../assets/twitter.png")}
+                     src={require("../assets/logos/twitter.png")}
                      alt="Twitter"/>
               </a>
 
-              <a href="mailtp:rifad.lafir@outlook.com"
+              <a href="mailto:rifad.lafir@outlook.com"
                  target="_blank"
                  rel="noopener noreferrer">
                 <img className="fade logo"
-                     src={require("../assets/mail.png")}
+                     src={require("../assets/logos/mail.png")}
                      alt="E-Mail"/>
+              </a>
+
+              <a href="../assets/mycv.pdf" download title="Download My CV">
+                <img className="fade logo"
+                     src={require("../assets/logos/download.png")}
+                     alt="Download My CV" />
               </a>
 
              </div>
