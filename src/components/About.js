@@ -6,7 +6,7 @@ class About extends Component{
   render(){
     return(
       <ScrollableAnchor id={"section-about"}>
-        <section className="col-lg-12 about">
+        <section className="about">
           <h2 className="heading">About Me</h2>
           <center>
             <p className="sub-text">

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from './Home';
 import NavBar from './NavBar';
 import About from './About';
+import Experience from './Experience';
 
 class App extends Component{
   render(){
@@ -10,6 +11,7 @@ class App extends Component{
         <NavBar />
         <Home />
         <About />
+        <Experience />
       </div>
 
     )

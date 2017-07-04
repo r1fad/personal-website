@@ -5,12 +5,13 @@
   align-items: center;
   flex-direction: column;
   background-color: #f7f7f7;
+  flex-grow: 0;
 }
 
 .heading{
   display: flex;
   text-decoration: underline;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .sub-text{

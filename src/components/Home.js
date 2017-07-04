@@ -23,63 +23,62 @@ class Home extends Component{
 
     return(
       <ScrollableAnchor id={"section-home"}>
-        <section>
-          <div className="home">
-            <Typist
-              className="text"
-              avgTypingSpeed={30}
-              cursor = {{show:false}}>
-              <h2>Hello, I am Rifad Lafir</h2>
-            </Typist>
-            <div className="logos">
+        <div className="home">
+          <Typist
+            className="text"
+            avgTypingSpeed={30}
+            cursor = {{show:false}}
+            avgTypingDelay={100}>
+            <h2>Hello, I am Rifad Lafir</h2>
+          </Typist>
+          <div className="logos">
 
-              <a href="https://github.com/r1fad"
-                 target="_blank"
-                 rel="noopener noreferrer">
+            <a href="https://github.com/r1fad"
+               target="_blank"
+               rel="noopener noreferrer">
+              <img className="fade logo"
+                   src={require("../assets/logos/github.png")}
+                   alt="Github"/>
+            </a>
+
+            <a href="https://www.linkedin.com/in/rifadlafir/"
+               target="_blank"
+               rel="noopener noreferrer">
+
                 <img className="fade logo"
-                     src={require("../assets/logos/github.png")}
-                     alt="Github"/>
-              </a>
+                     src={require("../assets/logos/linkedin.png")}
+                     alt="LinkedIn"/>
+            </a>
 
-              <a href="https://www.linkedin.com/in/rifadlafir/"
-                 target="_blank"
-                 rel="noopener noreferrer">
+            <a href="https://twitter.com/r1fad"
+               target="_blank"
+               rel="noopener noreferrer">
+              <img className="fade logo"
+                   src={require("../assets/logos/twitter.png")}
+                   alt="Twitter"/>
+            </a>
 
-                  <img className="fade logo"
-                       src={require("../assets/logos/linkedin.png")}
-                       alt="LinkedIn"/>
+            <a href="mailto:rifad.lafir@outlook.com"
+               target="_blank"
+               rel="noopener noreferrer">
+              <img className="fade logo"
+                   src={require("../assets/logos/mail.png")}
+                   alt="E-Mail"/>
+            </a>
 
-              </a>
-
-              <a href="https://twitter.com/r1fad"
-                 target="_blank"
-                 rel="noopener noreferrer">
-                <img className="fade logo"
-                     src={require("../assets/logos/twitter.png")}
-                     alt="Twitter"/>
-              </a>
-
-              <a href="mailto:rifad.lafir@outlook.com"
-                 target="_blank"
-                 rel="noopener noreferrer">
-                <img className="fade logo"
-                     src={require("../assets/logos/mail.png")}
-                     alt="E-Mail"/>
-              </a>
-
-              <a href="../assets/mycv.pdf" download title="Download My CV">
-                <img className="fade logo"
-                     src={require("../assets/logos/download.png")}
-                     alt="Download My CV" />
-              </a>
-
-             </div>
+            <a href={require("../assets/mycv.pdf")}
+               download="rifadlafirCV.pdf"
+               title="Download My CV">
+              <img className="fade logo"
+                   src={require("../assets/logos/download.png")}
+                   alt="Download My CV" />
+            </a>
            </div>
-        </section>
+         </div>
       </ScrollableAnchor>
 
     )
   }
 }
 
-export default Home
+export default Home;
