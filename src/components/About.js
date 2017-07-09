@@ -21,13 +21,15 @@ class About extends Component{
               My interests in the CS field include Data Science, Cybersecurity,
               Artificial Intelligence and Web Development.</p>
             <p className="sub-text">
-              Sed a volutpat mauris, id tincidunt nisi.
-              Ut iaculis dolor non ligula consequat porttitor.
-              Vivamus lobortis pellentesque bibendum.
-              Pellentesque rhoncus mauris vel velit aliquam tempor
-              sit amet eu magna.
-              Curabitur dictum viverra massa, eu lacinia odio consequat et.
-              Morbi nec aliquam odio.
+              I consider myself a quick learner and love to experiment
+              and break things (I am really good at breaking things!).
+              I am able to come up with a reason to as to why I broke inspect
+              in O(log n) time at best and O(n^2) at worst.
+
+              I also like to think I have a good taste in music but I
+              am gonna let you judge for yourself. Check out my
+              <a href="https://open.spotify.com/user/r1fad"> public playlists</a>.
+
             </p>
           </center>
         </section>
