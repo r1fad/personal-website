@@ -1,8 +1,11 @@
 .experience{
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-grow: 0;
+}
+
+.headingE{
+  padding-top: 80px;
 }

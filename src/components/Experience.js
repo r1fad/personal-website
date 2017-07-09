@@ -7,7 +7,7 @@ class Experience extends Component{
     return(
       <ScrollableAnchor id={"section-experience"}>
         <div className="experience">
-
+          <h2 className="headingE">Experience</h2>
         </div>
       </ScrollableAnchor>
     )
