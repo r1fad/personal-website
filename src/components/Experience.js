@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import {Card, CardTitle, CardText, CardBlock,
-        CardSubtitle, Col, CardFooter,Row} from 'reactstrap';
+        CardSubtitle, Col, CardFooter} from 'reactstrap';
 import '../styles/experience.css';
 
 class Experience extends Component{
