@@ -23,7 +23,7 @@ class About extends Component{
             <p className="sub-text">
               I consider myself a quick learner and love to experiment
               and break things (I am really good at breaking things!).
-              I am able to come up with a reason to as to why I broke inspect
+              I am able to come up with a reason to as to why I broke it
               in O(log n) time at best and O(n^2) at worst.
 
               I also like to think I have a good taste in music but I
