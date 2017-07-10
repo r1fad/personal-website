@@ -22,7 +22,9 @@ class Home extends Component{
 
 
     return(
+
       <ScrollableAnchor id={"section-home"}>
+
         <div className="home">
           <Typist
             className="text"
@@ -75,6 +77,7 @@ class Home extends Component{
             </a>
            </div>
          </div>
+
       </ScrollableAnchor>
 
     )
