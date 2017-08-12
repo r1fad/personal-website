@@ -72,7 +72,7 @@ class Home extends Component{
                download="rifadlafirCV.pdf"
                title="Download My CV">
               <img className="fade logo"
-                   src={require("../assets/logos/download.png")}
+                   src={require("../assets/logos/cv.png")}
                    alt="Download My CV" />
             </a>
            </div>
