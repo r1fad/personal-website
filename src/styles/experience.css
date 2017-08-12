@@ -8,8 +8,15 @@
 
 .headingE{
   padding-top: 80px;
+  padding-bottom: 30px;
 }
 
-.exp-cards{
-  padding: 10px;
+.exp-details{
+  padding-top: 30px;
+  padding-left:  50px;
+  padding-right: 50px;
+}
+
+.exp{
+  padding-bottom: 20px;
 }
