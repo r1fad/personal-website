@@ -68,9 +68,10 @@ class Home extends Component{
                    alt="E-Mail"/>
             </a>
 
-            <a href={require("../assets/mycv.pdf")}
-               download="rifadlafirCV.pdf"
-               title="Download My CV">
+            <a href="https://drive.google.com/open?id=0Bz5yEC3MNuFRa09DckQzTUxXLUE"
+               title="Download My CV"
+               target="_blank"
+               rel="noopener noreferrer">
               <img className="fade logo"
                    src={require("../assets/logos/cv.png")}
                    alt="Download My CV" />
