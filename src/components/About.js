@@ -11,8 +11,8 @@ class About extends Component{
           <center>
             <p className="sub-text">
               I am a second year student studying for a <a
-              href="http://www.cs.manchester.ac.uk/study/undergraduate/courses/computer-science/?code=09616&pg=home">
-              MEng in Computer Science (with Industrial Experience) </a>
+              href="http://www.cs.manchester.ac.uk/study/undergraduate/courses/computer-science/?code=00559&pg=home">
+              BSc in Computer Science (with Industrial Experience) </a>
               at <a href="http://www.manchester.ac.uk/">
               The University of Manchester</a>.
               I have a firm grounding in Python and Java
