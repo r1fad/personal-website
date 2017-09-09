@@ -16,8 +16,12 @@ class NavBar extends Component{
     });
   }
   render() {
+    const divStyle = {
+      fontFamily: 'Questrial'
+    };
+
     return (
-      <div>
+      <div style={divStyle}>
         <Navbar className="fixed-top" color="faded" light toggleable>
           <NavbarToggler right onClick={this.toggle} />
           <NavbarBrand href="#section-home">R | L</NavbarBrand>

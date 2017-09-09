@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { Container } from 'reactstrap';
+
 import Home from './Home';
 import NavBar from './NavBar';
 import About from './About';
 import Experience from './Experience';
 import ReactGA from 'react-ga';
+
 
 
 class App extends Component{
@@ -18,12 +21,14 @@ class App extends Component{
   }
   render(){
     return(
-      <div>
+      <Container>
         <NavBar />
         <Home />
+        <hr className="style14"/>
         <About />
+        <hr className="style14"/>
         <Experience />
-      </div>
+      </Container>
 
     )
   }
