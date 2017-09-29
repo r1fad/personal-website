@@ -72,7 +72,7 @@ class Home extends Component{
                        src={require("../assets/logos/mail.png")}
                        alt="E-Mail"/>
                 </a>
-                <a href="https://drive.google.com/open?id=0Bz5yEC3MNuFRa09DckQzTUxXLUE"
+                <a href="https://drive.google.com/open?id=0Bz5yEC3MNuFRUmF1bkZydy1QT0E"
                    title="Download My CV"
                    target="_blank"
                    rel="noopener noreferrer">
