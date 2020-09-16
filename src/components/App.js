@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 
 import Home from './Home';
-import NavBar from './NavBar';
-import About from './About';
-import Experience from './Experience';
 import ReactGA from 'react-ga';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
+
+library.add(fab, fas);
 
 class App extends Component{
   constructor(){
@@ -22,14 +24,8 @@ class App extends Component{
   render(){
     return(
       <Container>
-        <NavBar />
         <Home />
-        <hr className="style14"/>
-        <About />
-        <hr className="style14"/>
-        <Experience />
       </Container>
-
     )
   }
 }
