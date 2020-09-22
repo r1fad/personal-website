@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Container } from 'reactstrap';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './Home';
+import Redirect from './Redirect';
 import ReactGA from 'react-ga';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -23,9 +24,20 @@ class App extends Component{
   }
   render(){
     return(
-      <Container>
-        <Home />
-      </Container>
+      <div>
+        <Router>
+          <Switch>
+            <Route
+              path="/cv"
+              component={ Redirect }/>
+            <Route path="/">
+                <Home />
+              </Route>
+          </Switch>
+          
+        </Router>
+        
+      </div>
     )
   }
 }

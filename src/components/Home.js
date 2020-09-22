@@ -37,7 +37,7 @@ class Home extends Component{
           </h1>
         </div>
          
-        <div>
+        <div className="description">
           <Typist 
                   cursor = {{show:false}}
                   avgTypingSpeed={100}>
